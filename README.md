@@ -30,7 +30,7 @@
   - git 
   - node js && npm
 - `test.sh`:
-> run application tests
+  > run application tests
 
 - `build.sh`: 
   > build docker image
