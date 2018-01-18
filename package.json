@@ -1,0 +1,23 @@
+{
+  "name": "cicd-demo-app",
+  "version": "1.0.0",
+  "description": "NodeJS demo application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hamdifourati@github.com/hamdifourati/cicd-demo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamdifourati/cicd-demo-app/issues"
+  },
+  "homepage": "https://github.com/hamdifourati/cicd-demo-app#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  }
+}
