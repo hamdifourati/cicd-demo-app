@@ -21,6 +21,7 @@
 - Mongo database:
   - Config: use default config
 
+## Workflow
 1. Create the following shell scripts:
 - `provision.sh`: 
   > install system dependencies
@@ -42,7 +43,8 @@
   > deploy tested application 
 - `clean.sh`:
   >  clean project. delete `node_modules` and remove running containers
----
+
+## Docker Compose
 > Only web application should be exposed!
 
 2. Create a development environment using docker compose
