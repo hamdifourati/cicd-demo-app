@@ -33,10 +33,18 @@
   > run application tests
 
 - `build.sh`: 
-  > build docker image
+  > build docker image. 
+  
+  > use app version as the image tag.
+  
+  > app version is given as an argument to the script.
+  
 - `deploy.sh`:
   > push docker image to private repository
-
+  
+  > use app version as the image tag.
+  
+  > app version is given as an argument to the script.
 - `run.sh`: 
   > start docker compose environment
 - `pipeline.sh`:
